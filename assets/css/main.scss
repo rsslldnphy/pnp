@@ -12,12 +12,17 @@
 }
 
 .main-nav {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
+  border-bottom: 10px solid #842075;
+  background: #f5f8fa;
+  text-align: center;
 }
 
-.cover-title {
-  text-align: center;
-  background: #f5f8fa;
+.nav-link {
+  color: #842075;
+  &:hover {
+    color: darken(#842075, 10);
+  }
 }
 
 .cover-title img {
@@ -44,8 +49,13 @@ h6.card-title {
   color: #444;
 }
 
+.main-content {
+  min-height: calc(100vh - 230px);
+}
+
 .footer-nav {
   background: #f5f8fa;
+  min-height: 230px;
   h6 { color: #888; }
 }
 

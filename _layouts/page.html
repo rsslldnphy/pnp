@@ -1,3 +1,27 @@
 ---
 layout: default
 ---
+
+<nav class="main-nav">
+  <a class="navbar-brand" href="/">
+    <img src="/img/banner.gif" alt="Patients not passports" role="title" style="height: 100px;" />
+  </a>
+  <div class="navbar-nav navbar-expand">
+  <ul class="navbar-nav mb-2" style="width: 100%;">
+    <li class="nav-item" style="width: 33%; text-align: center;">
+      <a class="nav-link" href="/advocate">Advocate</a>
+    </li>
+    <li class="nav-item" style="width: 33%; text-align: center;">
+      <a class="nav-link" href="/learn">Learn</a>
+    </li>
+    <li class="nav-item" style="width: 33%; text-align: center;">
+      <a class="nav-link" href="/campaign">Campaign</a>
+    </li>
+  </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</div>
